@@ -42,6 +42,7 @@ if (isDevelopment && !bypassWatch) {
 }
 
 module.exports = function ({ types }) {
+  console.log('calle');
   return {
     pre() {
       this.fileProcessed = false;
